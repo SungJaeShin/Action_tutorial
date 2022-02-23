@@ -1,0 +1,38 @@
+<launch>
+	<group ns="img1">
+		<include file="$(find realsense2_camera)/launch/rs_camera.launch">
+			<arg name="usb_port_id"         default=""/>
+			<arg name="serial_no"           default="046322250705"/>
+			<arg name="infra_width"         default="640"/>
+			<arg name="infra_height"        default="480"/>
+			<arg name="enable_infra1"       default="true"/>
+			<arg name="enable_infra2"       default="false"/>
+			<arg name="infra_fps"           value="30"/>
+			<arg name="align_depth"         value="false"/>
+			<arg name="depth_width"         value="640"/>
+			<arg name="depth_height"        value="480"/>
+			<arg name="enable_depth"        value="false"/>
+			<arg name="depth_fps"           value="5"/>
+			<arg name="json_file_path"      default="$(find image_stitching)/launch/cam_json/cam1.json"/>
+		</include>
+	</group>
+
+	<group ns="img2">
+		<include file="$(find realsense2_camera)/launch/rs_camera.launch">
+			<arg name="usb_port_id"         default=""/>
+			<arg name="serial_no"           default="046322250275"/>
+			<arg name="infra_width"         default="640"/>
+			<arg name="infra_height"        default="480"/>
+			<arg name="enable_infra1"       default="true"/>
+			<arg name="enable_infra2"       default="false"/>
+			<arg name="infra_fps"           value="30"/>
+			<arg name="align_depth"         value="false"/>
+			<arg name="depth_width"         value="640"/>
+			<arg name="depth_height"        value="480"/>
+			<arg name="enable_depth"        value="false"/>
+			<arg name="depth_fps"           value="5"/>
+			<arg name="json_file_path"      default="$(find image_stitching)/launch/cam_json/cam2.json"/>
+		</include>
+	</group>
+</launch>
+

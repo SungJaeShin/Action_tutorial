@@ -1,0 +1,11 @@
+# Define the goal
+int32 index
+sensor_msgs/Image img1  # Specify which dishwasher we want to use
+sensor_msgs/Image img2
+---
+# Define the result
+int32 pano_index
+sensor_msgs/Image panoImg
+---
+# Define a feedback message
+bool is_make_pano
