@@ -5,10 +5,10 @@
 - [Image Stitching](https://github.com/SungJaeShin/Stitching_Image.git): Image stitching algorithm using OpenCV API.
 
 **Basic Concept**
-- [Basic Concept](https://heathered-freon-621.notion.site/Action-Tutorial-Basic-concept-of-Action-53e29725788e4bff871bb4e6452f2b52).
+- [Action tutorial Kor](https://heathered-freon-621.notion.site/Action-Tutorial-Basic-concept-of-Action-53e29725788e4bff871bb4e6452f2b52): Explain basic concept of Action in KOR version.
 
 **Description**
-- Form: Class
+- Form: Class & Multi thread 
 - Node: Client, Server
 - Subscribe: Two Images of Realsense Camera 
 - Publish: Panorama Image
