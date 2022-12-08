@@ -106,7 +106,7 @@ void ImgServer::makePanoImg(cv::Mat image1, cv::Mat image2, cv::Mat &pano_img, i
         return;
     }
 
-    std::string save_pano_dir = "/home/sj/iros2022/src/Action_tutorial/image_result/pano_" + std::to_string(index) + "_.png";
+    std::string save_pano_dir = "~/Action_tutorial/image_result/pano_" + std::to_string(index) + "_.png";
     cv::imwrite(save_pano_dir, panorama);
 
 	printf("Successfully make panorama image !!\n");
