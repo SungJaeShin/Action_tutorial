@@ -1,5 +1,5 @@
 # Action Tutorial
-## ROS에서 사용되는 action을 활용하여 client 와 server 사이 topic 을 주고 받아보기  
+## Send and receive messages between client and server using actions used in ROS !!
 
 ![](./Action.png)
 
