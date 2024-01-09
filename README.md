@@ -4,7 +4,7 @@
 ![](./Action.png)
 
 **Base Algorithm**
-- [Image Stitching](https://github.com/SungJaeShin/Stitching_Image.git): Image stitching algorithm using OpenCV API.
+- [Image Stitching](https://github.com/SungJaeShin/Image_Stitching.git): Image stitching algorithm using OpenCV API.
 
 **Basic Concept**
 - [Action tutorial Kor](https://heathered-freon-621.notion.site/Action-Tutorial-Basic-concept-of-Action-53e29725788e4bff871bb4e6452f2b52): Explain basic concept of Action in KOR version.
